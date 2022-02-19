@@ -1,0 +1,330 @@
+/* 
+    @author Wesley Rodrigues
+    GitHub: https://github.com/WesleyRodrigues55
+
+    List
+    1 - Tipografia
+    2 - Buttons
+    3 - Icones
+    4 - Navegação
+    5 - Banner
+    6 - Quem Somos
+    7 -  Na Mídia
+    8 - Comentários
+    9 - Footer
+    10 - Dimensões (@media)
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    overflow-x: hidden;
+    /* font-weight: 700; */
+}
+
+
+/* 
+    ================= 1 - Tipografia ================= 
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.quem_somos_title,
+.quem_somos_title2,
+.comentario_title {
+    color: #300742;
+}
+
+.na_midia_title,
+.na_midia_subtitle,
+.rodape_title,
+.rodape_subtitle {
+    color: #fff;
+}
+
+
+/* 
+     ================= 2 - Buttons ================= 
+*/
+
+.box_buttons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    width: 250px;
+    color: #000;
+    border-radius: 100px;
+    margin: 5px 15px 5px 0;
+    font-weight: bold;
+}
+
+.button_outline {
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    width: 250px;
+    color: #fff;
+    border-radius: 100px;
+    margin: 5px 15px 5px 0;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: #300742;
+}
+
+.button_outline:hover {
+    background: #fff;
+    color: #300742;
+    transition: background 1s;
+}
+
+
+/* 
+     ================= 3 - Ícones ================= 
+*/
+
+.icon_burger {
+    font-size: 20px;
+    color: #000;
+}
+
+.icon_nav {
+    width: 25px;
+}
+
+
+/* 
+     ================= 4 - Navegação ================= 
+*/
+
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: #fff;
+    box-shadow: 0 0 5px 0 #000;
+    z-index: 9999;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.nav-link:hover {
+    color: #300742;
+}
+
+.nav-link:focus {
+    color: #300742;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+
+
+/* 
+     ================= 5 - Banner ================= 
+*/
+
+.banner {
+    background: url('../../assets/img/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_banner {
+    /* width: 100vh; */
+    text-align: center;
+}
+
+
+/* 
+     ================= 6 - Quem Somos ================= 
+*/
+
+.quem_somos {
+    padding: 100px 20px;
+}
+
+.img_card {
+    width: 250px;
+    margin: 5px 4px;
+}
+
+
+/* 
+     ================= 7 - Na Mídia ================= 
+*/
+
+.na_midia {
+    background: #000;
+    padding: 100px 80px;
+}
+
+.slider-for {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+/* 
+     ================= 8 - Comentários ================= 
+*/
+
+.comentarios {
+    padding: 100px 20px;
+}
+
+
+/* 
+     ================= 9 - Footer ================= 
+*/
+
+.rodape {
+    padding: 100px 20px 20px 20px;
+    background: #000;
+}
+
+
+/* 
+     ================= 10 - Dimensões ================= 
+*/
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 50px;
+    }
+    .img_card {
+        width: 200px;
+        margin: 5px 4px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .button,
+    .button_outline {
+        font-size: 12px;
+        padding: 10px 20px;
+        width: 200px;
+        margin: 5px 15px 5px 0;
+    }
+    .img_card {
+        width: 300px;
+        margin: 5px 4px;
+    }
+    .na_midia {
+        background: #000;
+        padding: 100px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button,
+    .button_outline {
+        font-size: 12px;
+        padding: 10px 20px;
+        width: 200px;
+        margin: 5px 15px 5px 0;
+    }
+    .img_card {
+        width: 240px;
+        margin: 5px 4px;
+    }
+    .na_midia {
+        background: #000;
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+    }
+    .button,
+    .button_outline {
+        font-size: 10px;
+        padding: 8px 20px;
+        width: 120px;
+        margin: 5px 15px 5px 0;
+    }
+    .img_card {
+        width: 160px;
+        margin: 5px 4px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .img_card {
+        width: 120px;
+        margin: 5px 4px;
+    }
+}

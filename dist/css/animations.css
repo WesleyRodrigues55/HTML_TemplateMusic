@@ -1,0 +1,6 @@
+.fadeInLeft {
+    /* display: inline-block;
+    margin: 0 0.5rem; */
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
