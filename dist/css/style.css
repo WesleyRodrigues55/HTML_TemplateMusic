@@ -191,6 +191,7 @@ p {
     background: url('../../assets/img/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 95vh;
     display: flex;
     justify-content: center;
@@ -292,12 +293,18 @@ p {
     .button_outline {
         font-size: 12px;
         padding: 10px 20px;
-        width: 200px;
+        width: 230px;
         margin: 5px 15px 5px 0;
+    }
+    .banner {
+        background: url('../../assets/img/banner_mobile.png');
     }
     .img_card {
         width: 240px;
         margin: 5px 4px;
+    }
+    .slider-for {
+        border-radius: 5px;
     }
     .na_midia {
         background: #000;
@@ -313,7 +320,7 @@ p {
     .button_outline {
         font-size: 10px;
         padding: 8px 20px;
-        width: 120px;
+        width: 130px;
         margin: 5px 15px 5px 0;
     }
     .img_card {

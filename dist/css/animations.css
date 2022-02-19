@@ -1,6 +1,6 @@
-.fadeInLeft {
+.fadeInUp {
     /* display: inline-block;
     margin: 0 0.5rem; */
-    animation: fadeInLeft;
+    animation: fadeInUp;
     animation-duration: 1s;
 }
