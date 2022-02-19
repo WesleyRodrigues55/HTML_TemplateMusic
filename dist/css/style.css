@@ -323,6 +323,10 @@ p {
         width: 130px;
         margin: 5px 15px 5px 0;
     }
+    .banner {
+        background: url('../../assets/img/banner_mobile.png');
+        height: 75vh;
+    }
     .img_card {
         width: 160px;
         margin: 5px 4px;
