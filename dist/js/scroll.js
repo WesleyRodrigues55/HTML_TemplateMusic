@@ -8,22 +8,22 @@
          }, 1000);
      });
 
-     $("#go-cursos").click(function() {
-         var posicao = $("#cursos").offset().top;
+     $("#go-quemsomos").click(function() {
+         var posicao = $("#quem-somos").offset().top;
          $("html, body").animate({
              scrollTop: posicao
          }, 1000);
      });
 
-     $("#go-biblioteca").click(function() {
-         var posicao = $("#biblioteca").offset().top;
+     $("#go-midia").click(function() {
+         var posicao = $("#midia").offset().top;
          $("html, body").animate({
              scrollTop: posicao
          }, 1000);
      });
 
-     $("#go-contato").click(function() {
-         var posicao = $("#contato").offset().top;
+     $("#go-comentarios").click(function() {
+         var posicao = $("#comentarios").offset().top;
          $("html, body").animate({
              scrollTop: posicao
          }, 1000);
