@@ -230,7 +230,7 @@ p {
 .slider-for {
     border: 1px solid #fff;
     border-radius: 20px;
-    padding: 20px;
+    padding: 5px;
     background: rgba(255, 255, 255, 0.8);
 }
 
@@ -241,6 +241,27 @@ p {
 
 .comentarios {
     padding: 100px 20px;
+}
+
+.box_comentarios {
+    /* padding: 10px; */
+    box-shadow: 0 0 5px 0 #000;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.img_comentarios>img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.content_comentarios {
+    padding: 15px 25px;
+}
+
+.content_comentarios>p {
+    font-style: italic;
 }
 
 
